@@ -1,0 +1,19 @@
+{
+  "name": "tea-helpers",
+  "version": "0.0.1",
+  "description": "Tea protocol helper functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shevchenko-max/tea.git"
+  },
+  "author": "shevchenko-max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shevchenko-max/tea/issues"
+  },
+  "homepage": "https://github.com/shevchenko-max/tea#readme"
+}
