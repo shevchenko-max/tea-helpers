@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shevchenko-max/tea/issues"
   },
-  "homepage": "https://github.com/shevchenko-max/tea#readme"
+  "homepage": "https://github.com/shevchenko-max/tea#readme",
+  "dependencies": {
+    "date-fns": "^3.3.1"
+  }
 }
