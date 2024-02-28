@@ -1,6 +1,6 @@
 {
   "name": "tea-helpers",
-  "version": "0.0.2",
+  "version": "1.0.4",
   "description": "Tea protocol helper functions",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shevchenko-max/tea.git"
+    "url": "https://github.com/shevchenko-max/tea-helpers.git"
   },
   "author": "shevchenko-max",
   "license": "ISC",
@@ -17,6 +17,21 @@
   },
   "homepage": "https://github.com/shevchenko-max/tea#readme",
   "dependencies": {
-    "date-fns": "^3.3.1"
+    "@koa/router": "^12.0.1",
+    "axios": "^1.6.7",
+    "cross-env": "^7.0.3",
+    "date-fns": "^3.3.1",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.2",
+    "ejs": "^3.1.9",
+    "koa": "^2.15.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-helmet": "^7.0.2",
+    "koa-json": "^2.0.2",
+    "koa-pino-logger": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.0.0",
+    "pino": "^8.18.0",
+    "rc-ruler": "^0.1.1"
   }
 }
