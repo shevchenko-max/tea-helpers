@@ -62,3 +62,8 @@ export const quoteQuery = (query = '') => query.replace(/'/g, "''");
 export const capitalizeLetters = (str) => str.replace(/(?:^|\s)\S/g, (a) => a.toUpperCase());
 
 export const swapObject = (obj) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [value, key]));
+
+export const pull = (arr, ...args) => {
+  const argState = Array.isArray(args[0]) ? args[0] : args;
+  return arr.filter((v) => !argState.includes(v));
+}
