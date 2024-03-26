@@ -1,6 +1,6 @@
 {
   "name": "tea-helpers",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Tea protocol helper functions",
   "main": "index.js",
   "scripts": {
@@ -42,5 +42,14 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1"
-  }
+  },
+  "keywords": [
+    "tea",
+    "protocol",
+    "helpers",
+    "functions",
+    "node",
+    "js",
+    "array"
+  ]
 }
