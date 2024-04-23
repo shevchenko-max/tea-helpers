@@ -1,6 +1,6 @@
 {
   "name": "tea-helpers",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Tea protocol helper functions",
   "main": "index.js",
   "scripts": {
